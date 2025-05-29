@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import logo from './assets/embrulla-logo.png';
+import n8nFlow from './assets/n8n_workflow_image.png';
 
 export default function EmbrullaLandingPage() {
   return (
@@ -34,6 +35,7 @@ export default function EmbrullaLandingPage() {
             Service businesses like yours lose thousands every month from unconverted leads slipping through the cracks. Manual follow-ups are tedious, inconsistent, and inefficient. Embrulla puts an end to this chaos by fully automating your lead revival process—so you never miss another opportunity again.
           </p>
         </motion.section>
+
         <motion.section id="how-it-works" className="max-w-3xl mx-auto space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-3xl font-bold text-center">Tired of Missed Opportunities and Operational Bottlenecks?</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
@@ -44,21 +46,27 @@ export default function EmbrullaLandingPage() {
           </ul>
           <p className="text-center">Every missed lead is lost revenue—money you’ve already spent acquiring those leads.</p>
         </motion.section>
+
         <motion.section className="max-w-5xl mx-auto space-y-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold">Embrulla Smart Follow-Up & Lead Revival Engine</h2>
           <div className="mt-10 max-w-4xl mx-auto text-center">
-          <p>Automated. Intelligent. Profitable.</p>
-          <p>
-            Embrulla is an AI-powered automation platform specifically designed for service based businesses. We systematically revive and convert your old leads, eliminating the need for manual follow-ups, and gives you crystal-clear visibility into booked jobs and ROI - without lifting a finger.
-          </p>
-          <p>Here’s how it works:</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-700">
-            <li><strong>Smart Lead Scoring:</strong> AI-driven logic instantly categorizes and assigns tailored revival campaigns.</li>
-            <li><strong>Automated Follow-Ups:</strong> Consistent, personalized emails sent automatically—no manual oversight needed.</li>
-            <li><strong>Real-Time Tracking:</strong> Transparent metrics show exactly which leads engage, book, or quote.</li>
-            <li><strong>Simplified Billing:</strong> Automatically tracks revival success, ensuring seamless and accurate invoicing.</li>
-          </ul>
+            <p>Automated. Intelligent. Profitable.</p>
+            <p>
+              Embrulla is an AI-powered automation platform specifically designed for service based businesses. We systematically revive and convert your old leads, eliminating the need for manual follow-ups, and gives you crystal-clear visibility into booked jobs and ROI - without lifting a finger.
+            </p>
+            <p>Here’s how it works:</p>
+            <ul className="list-disc list-inside space-y-1 text-gray-700">
+              <li><strong>Smart Lead Scoring:</strong> AI-driven logic instantly categorizes and assigns tailored revival campaigns.</li>
+              <li><strong>Automated Follow-Ups:</strong> Consistent, personalized emails sent automatically—no manual oversight needed.</li>
+              <li><strong>Real-Time Tracking:</strong> Transparent metrics show exactly which leads engage, book, or quote.</li>
+              <li><strong>Simplified Billing:</strong> Automatically tracks revival success, ensuring seamless and accurate invoicing.</li>
+            </ul>
+            <div className="pt-6">
+              <img src={n8nFlow} alt="n8n workflow diagram" className="rounded-lg shadow-lg w-full max-w-3xl mx-auto" />
+            </div>
+          </div>
         </motion.section>
+
         <motion.section id="benefits" className="max-w-3xl mx-auto text-center space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold">Immediate Benefits for Your Business</h2>
           <ul className="list-disc list-inside space-y-2 text-left">
@@ -69,6 +77,7 @@ export default function EmbrullaLandingPage() {
             <li>✅ Only Pay for Results: You only pay when a revived lead actually books or converts.</li>
           </ul>
         </motion.section>
+
         <motion.section id="faq" className="max-w-3xl mx-auto text-left space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold text-center">Frequently Asked Questions</h2>
           <p><strong>Is Embrulla complicated to set up?</strong> No. Our onboarding is simple, clear, and fully supported by expert VAs—minimal effort from your team.</p>
@@ -76,6 +85,7 @@ export default function EmbrullaLandingPage() {
           <p><strong>How reliable is the automation?</strong> Highly reliable. With fallback email systems, watchdog monitoring, and transparent logs, your campaigns always run smoothly.</p>
           <p><strong>Is my data secure?</strong> Your security is paramount. Embrulla adheres strictly to industry standards, ensuring your business data remains protected and private.</p>
         </motion.section>
+
         <motion.section id="contact" className="text-center max-w-4xl mx-auto space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold">Ready to See How Embrulla Can Revolutionize Your Revenue?</h2>
           <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-primary text-white px-6 py-3 rounded hover:bg-accent font-semibold">
@@ -89,6 +99,7 @@ export default function EmbrullaLandingPage() {
             Our simple onboarding process will immediately integrate with your existing CRM, calendars, and tools, ensuring you start reviving leads—and profits—without delay.
           </p>
         </motion.section>
+
         <footer className="text-center mt-12 text-sm text-gray-500">
           <h2 className="text-lg font-semibold">Embrulla: Weatherproof Your Business Workflows</h2>
           <p>End the chaos. Take control. Effortlessly convert forgotten leads into steady, reliable revenue.</p>
