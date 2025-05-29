@@ -101,9 +101,17 @@ export default function EmbrullaLandingPage() {
 
         <motion.section id="contact" className="text-center max-w-4xl mx-auto space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold mb-6">Ready to See How Embrulla Can Revolutionize Your Revenue?</h2>
-          <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 font-semibold">
-            Book Your Free Demo Today →
-          </a>
+          <motion.a
+  href="https://calendly.com/tylerdoiron-embrulla"
+  className="inline-block bg-primary text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
+  whileInView={{ opacity: 1, scale: 1 }}
+  initial={{ opacity: 0, scale: 0.95 }}
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.3 }}
+>
+  Book Your Free Strategy Call →
+</motion.a>
+
           <br />
           <button className="mt-2 border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50">
             Download Your Free Lead Revival Information Pack →
