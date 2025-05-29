@@ -100,7 +100,7 @@ export default function EmbrullaLandingPage() {
         </motion.section>
 
         <motion.section id="contact" className="text-center max-w-4xl mx-auto space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
-          <h2 className="text-2xl font-bold">Ready to See How Embrulla Can Revolutionize Your Revenue?</h2>
+          <h2 className="text-2xl font-bold mb-6">Ready to See How Embrulla Can Revolutionize Your Revenue?</h2>
           <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 font-semibold">
             Book Your Free Demo Today →
           </a>
