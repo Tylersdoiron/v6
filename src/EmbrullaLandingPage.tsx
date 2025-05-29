@@ -48,7 +48,7 @@ export default function EmbrullaLandingPage() {
           <h2 className="text-2xl font-bold">Embrulla Smart Follow-Up & Lead Revival Engine</h2>
           <p>Automated. Intelligent. Profitable.</p>
           <p>
-            Embrulla is an AI-powered automation platform specifically designed for service based businesses. It systematically revives and converts your old leads, eliminating manual follow-ups, streamlining your billing process, and clearly tracking your ROI.
+            Embrulla is an AI-powered automation platform specifically designed for service based businesses. We systematically revive and convert your old leads, eliminating the need for manual follow-ups, and gives you crystal-clear visibility into booked jobs and ROI - without lifting a finger.
           </p>
           <p>Here’s how it works:</p>
           <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -64,7 +64,8 @@ export default function EmbrullaLandingPage() {
             <li>✅ Increase Revenue Fast: Quickly turn dormant leads into profitable bookings.</li>
             <li>✅ Slash Admin Workload: Reduce time spent on lead follow-ups by up to 80%.</li>
             <li>✅ Full Visibility & Clarity: Clearly see metrics on revived leads, booking rates, and real-time ROI.</li>
-            <li>✅ Scale Effortlessly: Easily integrate additional team members or locations with clear SOPs and automation.</li>
+            <li>✅ Set It & Forget It: Once we plug in, Embrulla works for you daily - no micromanagement needed.</li>
+            <li>✅ Only Pay for Results: You only pay when a revived lead actually books or converts.</li>
           </ul>
         </motion.section>
         <motion.section id="faq" className="max-w-3xl mx-auto text-left space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
