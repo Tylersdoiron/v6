@@ -141,7 +141,7 @@ export default function EmbrullaLandingPage() {
           <p>End the chaos. Take control. Effortlessly convert forgotten leads into steady, reliable revenue.</p>
           <motion.a
   href="https://calendly.com/tylerdoiron-embrulla"
-  className="inline-block mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-xl hover:bg-blue-700 hover:scale-105 transition-all duration-300"
+  className="inline-block mt-8 bg-primary text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
   whileInView={{ opacity: 1, scale: 1 }}
   initial={{ opacity: 0, scale: 0.95 }}
   whileHover={{ scale: 1.05 }}
