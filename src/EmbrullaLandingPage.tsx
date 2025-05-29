@@ -123,9 +123,14 @@ export default function EmbrullaLandingPage() {
 </motion.a>
 
           <br />
-          <button className="mt-2 border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50">
-            Download Your Free Lead Revival Information Pack →
-          </button>
+          <motion.button
+  className="mt-8 border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-all duration-300 font-semibold"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.97 }}
+>
+  Download Your Free Lead Revival Information Pack →
+</motion.button>
+
           <p className="text-gray-600 pt-4">
             Our simple onboarding process will immediately integrate with your existing CRM, calendars, and tools, ensuring you start reviving leads—and profits—without delay.
           </p>
