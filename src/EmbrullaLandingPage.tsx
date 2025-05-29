@@ -44,6 +44,16 @@ export default function EmbrullaLandingPage() {
 <p>
   You never miss another opportunity — and you don’t have to lift a finger.
 </p>
+<motion.a
+  href="https://calendly.com/tylerdoiron-embrulla"
+  className="inline-block bg-primary text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
+  whileInView={{ opacity: 1, scale: 1 }}
+  initial={{ opacity: 0, scale: 0.95 }}
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.3 }}
+>
+  Book Your Free Strategy Call →
+</motion.a>
 
           </p>
         </motion.section>
