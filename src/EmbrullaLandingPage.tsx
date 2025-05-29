@@ -26,13 +26,13 @@ export default function EmbrullaLandingPage() {
       <main className="p-6 md:p-12 space-y-24">
         <motion.section id="hero" className="text-center max-w-4xl mx-auto space-y-6" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <h1 className="text-5xl font-bold text-blue-600 font-heading">
-            Embrulla – The Smart Way to Revive Lost Leads and Boost Your Revenue
+            Embrulla – Automatically Revive Cold Leads and Recover Lost Revenue
           </h1>
           <p className="text-lg text-gray-700">
-            Stop Losing Money on Dormant Leads. Automatically Revive and Monetize Them, Hassle-Free.
+            Service businesses lose thousands from leads that go cold. Embrulla revives them — hands-free.
           </p>
           <p className="text-md text-gray-600">
-            Service businesses like yours lose thousands every month from unconverted leads slipping through the cracks. Manual follow-ups are tedious, inconsistent, and inefficient. Embrulla puts an end to this chaos by fully automating your lead revival process—so you never miss another opportunity again.
+            Most local businesses are sitting on thousands in unconverted quotes and past clients who never heard back. Manual follow-up is slow, inconsistent, and easy to forget. Embrulla automates everything — from sending personalized follow-ups to tracking replies and flagging booked leads. You never miss another opportunity — and you don’t have to lift a finger.
           </p>
         </motion.section>
 
