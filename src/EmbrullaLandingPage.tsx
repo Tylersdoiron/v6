@@ -89,9 +89,7 @@ export default function EmbrullaLandingPage() {
         </motion.section>
         <footer className="text-center mt-12 text-sm text-gray-500">
           <h2 className="text-lg font-semibold">Embrulla: Weatherproof Your Business Workflows</h2>
-          </p>
           <p>End the chaos. Take control. Effortlessly convert forgotten leads into steady, reliable revenue.</p>
-        </p>
           <a href="https://calendly.com/tylerdoiron-embrulla" className="inline-block mt-4 bg-primary text-white px-6 py-3 rounded hover:bg-blue-700">
             Schedule Your Free Lead Revival Audit →
           </a>
