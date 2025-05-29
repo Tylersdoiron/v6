@@ -17,7 +17,7 @@ export default function EmbrullaLandingPage() {
             <a href="#contact" className="hover:text-primary">Contact</a>
           </nav>
         </div>
-        <a href="https://calendly.com/tylerdoiron-ai-consulting" className="bg-primary text-white px-4 py-2 rounded hover:bg-accent font-semibold">
+        <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-primary text-white px-4 py-2 rounded hover:bg-accent font-semibold">
           Book a Demo
         </a>
       </header>
@@ -31,7 +31,7 @@ export default function EmbrullaLandingPage() {
             Stop Losing Money on Dormant Leads. Automatically Revive and Monetize Them, Hassle-Free.
           </p>
           <p className="text-md text-gray-700">
-            Trade businesses like yours lose thousands every month from unconverted leads slipping through the cracks. Manual follow-ups are tedious, inconsistent, and inefficient. Embrulla puts an end to this chaos by fully automating your lead revival process—so you never miss another opportunity again.
+            Service businesses like yours lose thousands every month from unconverted leads slipping through the cracks. Manual follow-ups are tedious, inconsistent, and inefficient. Embrulla puts an end to this chaos by fully automating your lead revival process—so you never miss another opportunity again.
           </p>
         </motion.section>
         <motion.section id="how-it-works" className="max-w-3xl mx-auto space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
@@ -48,7 +48,7 @@ export default function EmbrullaLandingPage() {
           <h2 className="text-2xl font-bold">Embrulla Smart Follow-Up & Lead Revival Engine</h2>
           <p>Automated. Intelligent. Profitable.</p>
           <p>
-            Embrulla is an AI-powered automation platform specifically designed for plumbers, electricians, HVAC businesses, and other trades. It systematically revives and converts your old leads, eliminating manual follow-ups, streamlining your billing process, and clearly tracking your ROI.
+            Embrulla is an AI-powered automation platform specifically designed for service based businesses. It systematically revives and converts your old leads, eliminating manual follow-ups, streamlining your billing process, and clearly tracking your ROI.
           </p>
           <p>Here’s how it works:</p>
           <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -56,7 +56,6 @@ export default function EmbrullaLandingPage() {
             <li><strong>Automated Follow-Ups:</strong> Consistent, personalized emails sent automatically—no manual oversight needed.</li>
             <li><strong>Real-Time Tracking:</strong> Transparent metrics show exactly which leads engage, book, or quote.</li>
             <li><strong>Simplified Billing:</strong> Automatically tracks revival success, ensuring seamless and accurate invoicing.</li>
-            <li><strong>Effortless Scaling:</strong> Plug-and-play backend allows rapid scaling through your existing or outsourced VA teams.</li>
           </ul>
         </motion.section>
         <motion.section id="benefits" className="max-w-3xl mx-auto text-center space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
@@ -77,7 +76,7 @@ export default function EmbrullaLandingPage() {
         </motion.section>
         <motion.section id="contact" className="text-center max-w-4xl mx-auto space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold">Ready to See How Embrulla Can Revolutionize Your Revenue?</h2>
-          <a href="https://calendly.com/tylerdoiron-ai-consulting" className="bg-primary text-white px-6 py-3 rounded hover:bg-accent font-semibold">
+          <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-primary text-white px-6 py-3 rounded hover:bg-accent font-semibold">
             Book Your Free Demo Today →
           </a>
           <br />
@@ -90,8 +89,10 @@ export default function EmbrullaLandingPage() {
         </motion.section>
         <footer className="text-center mt-12 text-sm text-gray-500">
           <h2 className="text-lg font-semibold">Embrulla: Weatherproof Your Business Workflows</h2>
+          </p>
           <p>End the chaos. Take control. Effortlessly convert forgotten leads into steady, reliable revenue.</p>
-          <a href="https://calendly.com/tylerdoiron-ai-consulting" className="inline-block mt-4 bg-primary text-white px-6 py-3 rounded hover:bg-blue-700">
+        </p>
+          <a href="https://calendly.com/tylerdoiron-embrulla" className="inline-block mt-4 bg-primary text-white px-6 py-3 rounded hover:bg-blue-700">
             Schedule Your Free Lead Revival Audit →
           </a>
         </footer>
