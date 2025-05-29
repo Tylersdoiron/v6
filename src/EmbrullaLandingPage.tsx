@@ -33,7 +33,7 @@ export default function EmbrullaLandingPage() {
           </p>
           <p className="text-md text-gray-600">
            <p>
-  Most local businesses are sitting on thousands in unconverted quotes and past clients who never heard back.
+  Most local businesses are sitting on thousands of dollars in unconverted quotes and past clients who never heard back.
 </p>
 <p>
   Manual follow-up is slow, inconsistent, and easy to forget.
@@ -56,7 +56,7 @@ export default function EmbrullaLandingPage() {
             <li>Unclear metrics leaving you guessing about actual lead quality and ROI.</li>
             <li>Difficulty scaling your follow-up efforts as your business grows.</li>
           </ul>
-          <p className="text-center">Every missed lead is lost revenue—money you’ve already spent acquiring those leads.</p>
+          <p className="text-center">Every missed lead is lost revenue — money you’ve already paid to acquire.</p>
         </motion.section>
 
         <motion.section className="max-w-5xl mx-auto space-y-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
