@@ -5,33 +5,33 @@ import n8nFlow from './assets/n8n_workflow_image.png';
 
 export default function EmbrullaLandingPage() {
   return (
-    <div className="min-h-screen bg-neutral text-dark font-sans">
+    <div className="min-h-screen bg-white text-gray-900 font-sans">
 
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-white shadow-md py-4 px-6 flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <img src={logo} alt="Embrulla Logo" className="h-10 w-auto" />
           <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
-            <a href="#how-it-works" className="hover:text-primary">How it works</a>
-            <a href="#benefits" className="hover:text-primary">Benefits</a>
-            <a href="#faq" className="hover:text-primary">FAQ</a>
-            <a href="#contact" className="hover:text-primary">Contact</a>
+            <a href="#how-it-works" className="hover:text-blue-600">How it works</a>
+            <a href="#benefits" className="hover:text-blue-600">Benefits</a>
+            <a href="#faq" className="hover:text-blue-600">FAQ</a>
+            <a href="#contact" className="hover:text-blue-600">Contact</a>
           </nav>
         </div>
-        <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-primary text-white px-4 py-2 rounded hover:bg-accent font-semibold">
+        <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 font-semibold">
           Book a Demo
         </a>
       </header>
 
       <main className="p-6 md:p-12 space-y-24">
         <motion.section id="hero" className="text-center max-w-4xl mx-auto space-y-6" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-          <h1 className="text-5xl font-bold text-primary font-heading">
+          <h1 className="text-5xl font-bold text-blue-600 font-heading">
             Embrulla – The Smart Way to Revive Lost Leads and Boost Your Revenue
           </h1>
-          <p className="text-lg text-secondary">
+          <p className="text-lg text-gray-700">
             Stop Losing Money on Dormant Leads. Automatically Revive and Monetize Them, Hassle-Free.
           </p>
-          <p className="text-md text-gray-700">
+          <p className="text-md text-gray-600">
             Service businesses like yours lose thousands every month from unconverted leads slipping through the cracks. Manual follow-ups are tedious, inconsistent, and inefficient. Embrulla puts an end to this chaos by fully automating your lead revival process—so you never miss another opportunity again.
           </p>
         </motion.section>
@@ -88,11 +88,11 @@ export default function EmbrullaLandingPage() {
 
         <motion.section id="contact" className="text-center max-w-4xl mx-auto space-y-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold">Ready to See How Embrulla Can Revolutionize Your Revenue?</h2>
-          <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-primary text-white px-6 py-3 rounded hover:bg-accent font-semibold">
+          <a href="https://calendly.com/tylerdoiron-embrulla" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 font-semibold">
             Book Your Free Demo Today →
           </a>
           <br />
-          <button className="mt-2 border border-primary text-primary px-6 py-3 rounded hover:bg-secondary/10">
+          <button className="mt-2 border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50">
             Download Your Free Lead Revival Information Pack →
           </button>
           <p className="text-gray-600 pt-4">
@@ -103,7 +103,7 @@ export default function EmbrullaLandingPage() {
         <footer className="text-center mt-12 text-sm text-gray-500">
           <h2 className="text-lg font-semibold">Embrulla: Weatherproof Your Business Workflows</h2>
           <p>End the chaos. Take control. Effortlessly convert forgotten leads into steady, reliable revenue.</p>
-          <a href="https://calendly.com/tylerdoiron-embrulla" className="inline-block mt-4 bg-primary text-white px-6 py-3 rounded hover:bg-blue-700">
+          <a href="https://calendly.com/tylerdoiron-embrulla" className="inline-block mt-4 bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
             Schedule Your Free Lead Revival Audit →
           </a>
         </footer>
@@ -112,3 +112,4 @@ export default function EmbrullaLandingPage() {
     </div>
   );
 }
+
