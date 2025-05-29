@@ -46,6 +46,16 @@ export default function EmbrullaLandingPage() {
         </motion.section>
         <motion.section className="max-w-5xl mx-auto space-y-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
           <h2 className="text-2xl font-bold">Embrulla Smart Follow-Up & Lead Revival Engine</h2>
+          <div className="mt-10 max-w-4xl mx-auto text-center">
+  <img
+    src="/images/embrulla-n8n-workflow-image.png"
+    alt="Embrulla n8n Lead Revival Workflow"
+    className="rounded-xl shadow-xl mx-auto w-full max-w-3xl"
+  />
+  <p className="text-sm text-gray-500 mt-3">
+    Automated lead revival flow built in n8n — integrating OpenAI, email delivery, and VA alerts.
+  </p>
+</div>
           <p>Automated. Intelligent. Profitable.</p>
           <p>
             Embrulla is an AI-powered automation platform specifically designed for service based businesses. We systematically revive and convert your old leads, eliminating the need for manual follow-ups, and gives you crystal-clear visibility into booked jobs and ROI - without lifting a finger.
