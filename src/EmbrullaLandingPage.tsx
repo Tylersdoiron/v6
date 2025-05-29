@@ -54,7 +54,13 @@ export default function EmbrullaLandingPage() {
 >
   Book Your Free Strategy Call →
 </motion.a>
-
+  <motion.button
+  className="mt-8 border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-all duration-300 font-semibold"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.97 }}
+>
+  Download Your Free Lead Revival Information Pack →
+</motion.button>
           </p>
         </motion.section>
 
