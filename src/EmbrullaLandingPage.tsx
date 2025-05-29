@@ -32,10 +32,19 @@ export default function EmbrullaLandingPage() {
             Service businesses lose thousands from leads that go cold. Embrulla revives them — hands-free.
           </p>
           <p className="text-md text-gray-600">
-           <p>Most local businesses are sitting on thousands in unconverted quotes and past clients who never heard back.<br><br>
-Manual follow-up is slow, inconsistent, and easy to forget.<br><br>
-<strong>Embrulla automates everything</strong> — from sending personalized follow-ups to tracking replies and flagging booked leads.<br><br>
-You never miss another opportunity — and you don’t have to lift a finger.</p>
+           <p>
+  Most local businesses are sitting on thousands in unconverted quotes and past clients who never heard back.
+</p>
+<p>
+  Manual follow-up is slow, inconsistent, and easy to forget.
+</p>
+<p>
+  <strong>Embrulla automates everything</strong> — from sending personalized follow-ups to tracking replies and flagging booked leads.
+</p>
+<p>
+  You never miss another opportunity — and you don’t have to lift a finger.
+</p>
+
           </p>
         </motion.section>
 
